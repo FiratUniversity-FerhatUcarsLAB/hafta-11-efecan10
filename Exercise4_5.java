@@ -1,4 +1,7 @@
-public class Exercise4_5 {
+ad soyad : efecan önal
+numara :250541093
+
+    public class Exercise4_5 {
 
     public static void zoop(String fred, int bob) {
         System.out.println(fred);
@@ -25,3 +28,25 @@ public class Exercise4_5 {
         System.out.println("any " + strangStrung + "more ");
     }
 }
+/*
+OUTPUT:
+just for
+any not more
+It's breakfast
+!
+
+STACK & VARIABLES:
+1. main method:
+   - bizz = 5
+   - buzz = 2
+
+2. zoop method (Called twice):
+   - 1st call: fred = "just for", bob = 5
+   - 2nd call: fred = "breakfast ", bob = 4
+
+3. ping method:
+   - strangStrung = "not "
+
+4. clink method:
+   - fork = 4
+*/
